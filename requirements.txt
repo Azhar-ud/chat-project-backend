@@ -4,4 +4,3 @@ supabase
 python-dotenv
 python-multipart
 pydantic
-mangum
