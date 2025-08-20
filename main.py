@@ -21,3 +21,9 @@ app.add_middleware(
 
 app.include_router(auth_routes.router, prefix="/auth", tags=["Auth"])
 app.include_router(messages_routes.router, prefix="/chat", tags=["Chat"])
+
+@app.get("/")
+def root():
+    return {"message": "Hello from main.py"}
+
+
