@@ -3,6 +3,5 @@ uvicorn[standard]
 supabase
 python-dotenv
 magnum
-python
 python-multipart
 pydantic
