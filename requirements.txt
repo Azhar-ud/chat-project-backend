@@ -2,6 +2,5 @@ fastapi
 uvicorn[standard]
 supabase
 python-dotenv
-mangum
 python-multipart
 pydantic
